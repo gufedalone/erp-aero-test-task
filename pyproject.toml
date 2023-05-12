@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "erp-aero-test-task"
+version = "0.1.0"
+description = ""
+authors = ["vlad <khalvlalove@gmail.com>"]
+readme = "README.md"
+packages = [{include = "erp_aero_test_task"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pdf2image = "^1.16.3"
+pyzbar = "^0.1.9"
+"pdfminer.six" = "^20221105"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
